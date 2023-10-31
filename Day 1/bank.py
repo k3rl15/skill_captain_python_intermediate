@@ -1,7 +1,7 @@
 # This is a Python class for a BankAccount.
 class BankAccount:
     # Constructor for the BankAccount class that initializes attributes.
-    def __int__(self, account_number, account_holder_name, account_balance):
+    def __init__(self, account_number, account_holder_name, account_balance):
         self.account_number = account_number  # Account number of the bank account.
         self.account_holder_name = account_holder_name  # Name of the account holder.
         self.account_balance = account_balance  # Current balance of the account.
