@@ -1,0 +1,8 @@
+Classes and Objects
+
+Concept:
+
+In Python, a class is a blueprint for creating objects. It is a user-defined data type that encapsulates data (attributes) and functions (methods) that operate on that data.
+In a non-bookish way, class is just a design that we use to create objects.
+
+The object is an instance of a class. It is an entity that we have created using class.
