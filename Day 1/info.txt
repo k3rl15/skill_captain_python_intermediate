@@ -1,0 +1,6 @@
+OOP Basics
+
+Concept:
+
+This Python Object-Oriented Programming (OOP) lesson is designed to introduce you to the fundamental concepts and principles of OOP using Python. OOP is a programming paradigm that organizes code into objects, which are instances of classes. it focuses on modeling real-world entities and their interactions through the use of classes, objects, and their relationships.
+In OOP, a class is a blueprint or template that defines the attributes (data) and methods (functions) that an object of that class can have. Objects are instances of classes that represent specific instances or examples of the defined blueprint. Objects can interact with each other through method calls, data sharing, and inheritance.
