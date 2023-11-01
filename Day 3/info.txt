@@ -1,0 +1,11 @@
+Inheritance
+
+Concept:
+
+Inheritance is like a family reunion where traits and behaviors are passed down from one class (the parent) to its child classes. It's like inheriting your grandpa's love for pizza or your grandma's talent for dancing. Just like how you can inherit your family's quirks, in programming, you can inherit properties and methods from a parent class to its child classes. It's like getting a ready-made cake recipe from your mom and adding your own secret ingredient to make it even more delicious. So, with inheritance, you can build upon existing classes, reuse code, and create a hierarchy of awesomeness!
+
+Inheritance in Python allows you to create a new class that inherits the properties and methods from an existing class. The new class is called the child class or derived class, and the existing class is called the parent class or base class.
+
+In the future when you will be playing around with Python frameworks, you would be reusing classes defined in the framework to create your custom class. That is inheritance.
+
+The child class can also add its own unique attributes and methods, or it can override the attributes and methods inherited from the parent class to modify its behavior. This enables code reuse and allows you to create specialized classes based on existing ones.
