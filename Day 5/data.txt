@@ -1,0 +1,29 @@
+Reading files
+
+To Do
+
+Concept:
+
+Reading files in Python is a common operation for processing and extracting information from text files or other types of files.
+
+Here's an example of reading a text file in Python:
+
+    # Open the file in read mode
+    file = open("filename.txt", "r")
+
+    # Read the contents of the file
+    content = file.read()
+
+    # Close the file
+    file.close()
+
+    # Print the content of the file
+    print(content)
+    
+
+1. In this example, we first open the file using the `open()` function, specifying the file name and the mode as "r" (With quotes duh!) for read mode.
+2. Then, we use the `read()` method to read the entire contents of the file and store it in the `content` variable.
+3. After reading the file, it's important to close it using the `close()` method to free up system resources.
+4. Finally, we print the content of the file using the `print()` function.
+5. You can replace `"filename.txt"` with the actual file name or the path to the file you want to read.
+6. Ensure that the file exists in the specified location.
