@@ -1,0 +1,21 @@
+Writing files
+
+Concept:
+
+Writing files in Python is a common task when you want to store data or generate output.
+
+Here's a simple example to write data to a file:
+
+Write a Python program that creates a new text file called "output.txt" and writes the numbers 1 to 10 on separate lines in the file.
+
+    # Open the file in write mode
+    file = open("output.txt", "w")
+
+    # Write numbers 1 to 10 to the file
+    for num in range(1, 11):
+        file.write(str(num) + "\n")
+
+    # Close the file
+    file.close()
+
+    print("Data written to file successfully.")
