@@ -1,0 +1,7 @@
+E-commerce User Registration
+
+Concept:
+
+User Registration System for an e-commerce website is a feature that allows users to create an account on the website, 
+providing their personal information and creating login credentials. This system enables users to have personalized 
+accounts, access various features of the website, and make purchases.
