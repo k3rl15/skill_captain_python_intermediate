@@ -1,0 +1,56 @@
+Testing - Introduction to unit testing
+
+Concept:
+
+In Python, the `unittest` module provides a framework for writing and running tests.
+Unit testing is a software testing technique where individual units of code, such as functions, classes, or modules, are tested to ensure they work correctly in isolation.
+
+The `unittest` module provides a `TestCase` class that you can subclass to define your test cases. Each test case typically consists of one or more test methods that start
+with the prefix "test_". These methods contain assertions that validate the expected behavior of the code being tested.
+
+Some commonly used assertions provided by `unittest` include:
+- assertEqual(a, b): Checks if `a` is equal to `b`.
+- assertTrue(x): Checks if `x` is true.
+- assertFalse(x): Checks if `x` is false.
+- assertIn(a, b): Checks if `a` is present in `b`.
+- assertNotIn(a, b): Checks if `a` is not present in `b`.
+- assertRaises(exception, callable, *args, **kwargs): Checks if calling `callable` with the given arguments raises an exception of type `exception`.
+
+To organize your tests, you can group related test cases into separate classes or test modules. The `unittest` module provides tools to automatically discover and run all 
+the test cases defined within a module or a specific directory.
+
+To run your tests, you can execute the test module directly as a script such as `unittest` from command-line interface (`python -m unittest`)
+
+For example
+
+
+
+    import unittest
+
+    def add_numbers(a, b):
+        return a + b
+
+    class TestAddNumbers(unittest.TestCase):
+        def test_add_positive_numbers(self):
+            result = add_numbers(2, 3)
+            self.assertEqual(result, 5)
+
+        def test_add_negative_numbers(self):
+            result = add_numbers(-5, -7)
+            self.assertEqual(result, -12)
+
+        def test_add_zero_to_number(self):
+            result = add_numbers(10, 0)
+            self.assertEqual(result, 10)
+
+    if __name__ == '__main__':
+        unittest.main()
+
+    
+
+To run the tests, we use unittest.main() which automatically discovers and runs all the test cases defined within the module.
+
+Steps to run unit tests:
+1. Save the code containing the test cases into a Python file, let's say test_add_numbers.py.
+2. Open a terminal and navigate to the directory where the test file is located.
+3. Run the test file using the python -m unittest command followed by the name of the test file. In this case, you would run
