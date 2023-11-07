@@ -1,0 +1,6 @@
+Add to cart
+
+Concept:
+
+You have been assigned to develop an Add to Cart feature for an e-commerce website using object-oriented programming (OOP) principles in Python. 
+The feature should allow users to add products to their cart and perform basic operations like viewing the cart, adding items, and removing items.
